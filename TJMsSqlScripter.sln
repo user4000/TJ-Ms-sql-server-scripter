@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26430.6
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TJMsSqlScripter", "TJMsSqlScripter\TJMsSqlScripter.csproj", "{BADDA9C3-694A-41D5-A89A-F9109A31D40A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProjectStandard", "ProjectStandard\ProjectStandard.csproj", "{CAF3DD4C-88E4-4652-A70D-514CF808E907}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BADDA9C3-694A-41D5-A89A-F9109A31D40A}.Debug|x86.ActiveCfg = Debug|x86
+		{BADDA9C3-694A-41D5-A89A-F9109A31D40A}.Debug|x86.Build.0 = Debug|x86
+		{BADDA9C3-694A-41D5-A89A-F9109A31D40A}.Release|x86.ActiveCfg = Release|x86
+		{BADDA9C3-694A-41D5-A89A-F9109A31D40A}.Release|x86.Build.0 = Release|x86
+		{CAF3DD4C-88E4-4652-A70D-514CF808E907}.Debug|x86.ActiveCfg = Debug|x86
+		{CAF3DD4C-88E4-4652-A70D-514CF808E907}.Debug|x86.Build.0 = Debug|x86
+		{CAF3DD4C-88E4-4652-A70D-514CF808E907}.Release|x86.ActiveCfg = Release|x86
+		{CAF3DD4C-88E4-4652-A70D-514CF808E907}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
