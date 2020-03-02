@@ -84,7 +84,7 @@
       <HintPath>E:\Telerik\Bin40\TelerikCommon.dll</HintPath>
     </Reference>
     <Reference Include="TJFramework">
-      <HintPath>..\..\..\Packages\TJ_Framework\TJFramework.dll</HintPath>
+      <HintPath>C:\Packages\TJ_Framework\TJFramework.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
