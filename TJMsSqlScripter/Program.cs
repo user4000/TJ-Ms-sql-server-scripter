@@ -23,7 +23,7 @@ namespace MainProject
     static void Main()
     {
       TJFrameworkManager.Logger.FileSizeLimitBytes = 1000000;
-      TJFrameworkManager.Logger.Create();
+      TJFrameworkManager.Logger.Create("TJ_Ms_Sql_Server_Scripter");
 
       TJFrameworkManager.Service.SetMainFormCaption("Database object scripter for MS Sql Server");
 

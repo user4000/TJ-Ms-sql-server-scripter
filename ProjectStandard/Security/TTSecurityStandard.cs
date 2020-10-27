@@ -1,15 +1,13 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.Linq;
-using System.Net.Http.Headers;
 using System.Text;
+using System.Net.Http.Headers;
 using System.Threading.Tasks;
 using SecurityDriven.Inferno;
 using SecurityDriven.Inferno.Kdf;
 using SecurityDriven.Inferno.Mac;
 using ProjectStandard.Extensions;
 using System.Security.Authentication;
-using System.Windows.Forms;
 
 namespace ProjectStandard
 {
