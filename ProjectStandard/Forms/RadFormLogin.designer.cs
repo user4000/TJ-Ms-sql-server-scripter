@@ -149,15 +149,18 @@
       this.F_Password.Size = new System.Drawing.Size(326, 35);
       this.F_Password.TabIndex = 1;
       this.F_Password.WordWrap = false;
+      ((Telerik.WinControls.UI.RadTextBoxControlElement)(this.F_Password.GetChildAt(0))).Alignment = System.Drawing.ContentAlignment.MiddleLeft;
       // 
       // F_Login
       // 
       this.F_Login.Font = new System.Drawing.Font("Verdana", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
       this.F_Login.Location = new System.Drawing.Point(196, 80);
+      this.F_Login.MaxLength = 500;
       this.F_Login.Name = "F_Login";
       this.F_Login.Size = new System.Drawing.Size(326, 35);
       this.F_Login.TabIndex = 0;
       this.F_Login.WordWrap = false;
+      ((Telerik.WinControls.UI.RadTextBoxControlElement)(this.F_Login.GetChildAt(0))).Alignment = System.Drawing.ContentAlignment.MiddleLeft;
       // 
       // PageViewLogin
       // 
@@ -172,7 +175,7 @@
       this.PageViewLogin.Size = new System.Drawing.Size(846, 475);
       this.PageViewLogin.TabIndex = 1;
       ((Telerik.WinControls.UI.RadPageViewStripElement)(this.PageViewLogin.GetChildAt(0))).ShowItemPinButton = false;
-      ((Telerik.WinControls.UI.RadPageViewStripElement)(this.PageViewLogin.GetChildAt(0))).StripButtons = Telerik.WinControls.UI.StripViewButtons.ItemList;
+      ((Telerik.WinControls.UI.RadPageViewStripElement)(this.PageViewLogin.GetChildAt(0))).StripButtons = Telerik.WinControls.UI.StripViewButtons.None;
       ((Telerik.WinControls.UI.RadPageViewStripElement)(this.PageViewLogin.GetChildAt(0))).ItemAlignment = Telerik.WinControls.UI.StripViewItemAlignment.Near;
       ((Telerik.WinControls.UI.RadPageViewStripElement)(this.PageViewLogin.GetChildAt(0))).ItemFitMode = Telerik.WinControls.UI.StripViewItemFitMode.None;
       ((Telerik.WinControls.UI.RadPageViewStripElement)(this.PageViewLogin.GetChildAt(0))).StripAlignment = Telerik.WinControls.UI.StripViewAlignment.Top;

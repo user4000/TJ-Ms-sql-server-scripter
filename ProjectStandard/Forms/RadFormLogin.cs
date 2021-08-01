@@ -46,14 +46,25 @@ namespace ProjectStandard
       InitializeComponent();
       Start();
     }
+
     private void Start()
     {
       SetTimer();
+      SetProperties();
       SetEvents();
 
       BtnChangePassword.Enabled = false;
       PageViewLogin.SelectedPage = PageLogin;
     }
+
+    private void SetProperties()
+    {
+      PageLogin.Item.MinSize = new System.Drawing.Size(200, 0);
+      PagePassword.Item.MinSize = new System.Drawing.Size(200, 0);
+      PageLogin.Item.TextAlignment = System.Drawing.ContentAlignment.MiddleCenter;
+      PagePassword.Item.TextAlignment = System.Drawing.ContentAlignment.MiddleCenter;
+    }
+
     private void SetEvents()
     {
       if (PictureOn.Location != PictureOff.Location) { PictureOn.Location = PictureOff.Location; }

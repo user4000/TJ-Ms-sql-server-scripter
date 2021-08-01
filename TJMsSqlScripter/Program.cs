@@ -46,7 +46,7 @@ namespace MainProject
       FrameworkSettings.PageViewItemSize = new Size(150, 27);
       FrameworkSettings.ItemSizeMode = PageViewItemSizeMode.EqualHeight;
       FrameworkSettings.MainPageViewReducePadding = true;
-      FrameworkSettings.TabMinimumWidth = 200;
+      FrameworkSettings.TabMinimumWidth = 140;
 
       Action ExampleOfVisualSettings = () =>
       {
@@ -64,6 +64,7 @@ namespace MainProject
       //ExampleOfVisualSettings.Invoke();
 
       FrameworkSettings.RememberMainFormLocation = true;
+
 
       TJFrameworkManager.Service.EventAfterAllFormsAreCreated = async () => await Manager.EventAfterAllFormsAreCreated();
       TJFrameworkManager.Service.EventBeforeMainFormClose = () => Manager.EventEndWork();

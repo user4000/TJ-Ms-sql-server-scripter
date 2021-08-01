@@ -46,6 +46,8 @@ namespace MainProject
           Manager.RefRadFormLogin.PasswordText = "";
         }
 
+      await Task.Delay(1000);
+
       if (AppSettings.AutoConnectToDb) await Manager.RefRadFormLogin.ConnectButton();
     }
 
