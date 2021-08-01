@@ -29,8 +29,8 @@ namespace MainProject
 
       TJFrameworkManager.Service.CreateApplicationSettings<TTProjectSettings>();
       
-      TJFrameworkManager.Service.AddForm<RadFormLogin>("Вход");
-      TJFrameworkManager.Service.AddForm<RadFormAdmin>("Администратор");
+      TJFrameworkManager.Service.AddForm<RadFormLogin>("Вход", true, true);
+      TJFrameworkManager.Service.AddForm<RadFormAdmin>("Администратор", true, true);
       TJFrameworkManager.Service.StartPage<RadFormLogin>();
 
       FrameworkSettings.VisualEffectOnStart = true;
@@ -46,6 +46,7 @@ namespace MainProject
       FrameworkSettings.PageViewItemSize = new Size(150, 27);
       FrameworkSettings.ItemSizeMode = PageViewItemSizeMode.EqualHeight;
       FrameworkSettings.MainPageViewReducePadding = true;
+      FrameworkSettings.TabMinimumWidth = 200;
 
       Action ExampleOfVisualSettings = () =>
       {

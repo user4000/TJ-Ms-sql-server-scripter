@@ -58,7 +58,8 @@ namespace MainProject
       TTDayFactory.Bind(UListWeek, JM.ListDays);
       TTPeriodService.Bind(GridTimer, JM.ListPeriod, true);
 
-      TxtIntervalMinute.ZZSetNonNegativeIntegerNumberOnly();
+
+      TxtIntervalMinute.ZxSetNonNegativeIntegerNumberOnly();
 
       GridTimer.ZZSetGridMainProperties();
 
